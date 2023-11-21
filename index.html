@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+<link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="generatecoded" id="genratediv">
+        <h1>Tic-Tac-Toe</h1>
+        <div class="joincodediv">
+        <input type="text" id="codeinput" placeholder="Enter Invite Code" />
+        <button onclick="submitcode()">Join Now</button>
+    </div>
+        <h4>OR</h4>
+       
+        <button onclick="Generatecode()">Generate Code</button>
+        
+    </div>
+
+    <div class="waitingdiv" id="playerwait">
+        <div class="divplayer">
+            <div class="firstplayer">
+                <i class="material-icons">account_circle</i>
+                <h2>Name:<span id="firstpayname">Waiting For Join Player</span></h2>
+            </div>
+            <h2>V/S</h2>
+            <div class="secondplayer">
+                <i class="material-icons">account_circle</i>
+                <h2>Name:<span id="secondpayname">Waiting For Join Player</span></h2>
+            </div>
+        </div>
+
+        <h2>Your Generated Code: <span id="genetcode">Not Generated Code</span></h2>
+        <button onclick="startma()" id="stbtn">Start</button>
+    </div>
+    <center>
+<div class="gamediv" id="realdgamedivid">
+    <div class="detaiheader">
+
+    </div>
+    <div class="maindivgame">
+<button type="text" value="" id="btn1" onclick="fixsetclick(1,this.value,this.id)" ></button>
+<button type="text" value="" id="btn2" onclick="fixsetclick(2,this.value,this.id)" ></button>
+<button type="text" value="" id="btn3" onclick="fixsetclick(3,this.value,this.id)" ></button>
+<button type="text" value="" id="btn4" onclick="fixsetclick(4,this.value,this.id)" ></button>
+<button type="text" value="" id="btn5" onclick="fixsetclick(5,this.value,this.id)" ></button>
+<button type="text" value="" id="btn6" onclick="fixsetclick(6,this.value,this.id)" ></button>
+<button type="text" value="" id="btn7" onclick="fixsetclick(7,this.value,this.id)" ></button>
+<button type="text" value="" id="btn8" onclick="fixsetclick(8,this.value,this.id)" ></button>
+<button type="text" value="" id="btn9" onclick="fixsetclick(9,this.value,this.id)" ></button>
+
+
+    </div>
+</div>
+</center>
+    <script src="main.js"></script>
+</body>
+</html>

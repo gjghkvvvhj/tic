@@ -1,0 +1,104 @@
+
+html{
+  height: 100%;
+    text-align: center;
+}
+*{
+    margin: 0px;
+    font: 1em sans-serif;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    padding: 5px;
+    height: 100%;
+    margin: 5px;
+}
+
+
+.generatecoded{
+    margin-top: 10%;
+ 
+
+}
+.generatecoded input{
+margin: 10px;
+padding: 5px 40px 5px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+    border-radius: 5px;
+
+
+}
+.generatecoded .joincodediv{
+    display: inline-grid;
+    padding: 5px;
+}
+.generatecoded button{
+    margin: 10px;
+    padding: 5px 40px 5px 15px;
+        border: 1px solid rgba(0, 0, 0, 0.25) !important;
+        border-radius: 5px;
+    
+    
+    }
+   button:hover {
+        border: 1px solid rgba(135, 8, 129, 0.25) !important;
+        background-color: blue;
+        color: #fff;
+    }
+    .waitingdiv{
+        margin: 10px;
+        padding: 40px;
+        width: max-content;
+            border: 1px solid rgba(0, 0, 0, 0.25) !important;
+            border-radius: 5px;
+            box-shadow: #352f2f;
+            margin-left: auto;
+            text-align: center;
+            margin-right: auto;
+    }
+    .waitingdiv .divplayer{
+display: flex;
+grid-template-rows: auto;
+text-align: center;
+flex-direction: row;
+margin: 5px;
+
+
+    }
+    .waitingdiv .divplayer i{
+
+font-size: 50px;
+    }
+
+    .waitingdiv h2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+
+    .waitingdiv button{
+        margin: 10px;
+        padding: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.25) !important;
+            border-radius: 5px;
+    }
+
+    .gamediv .maindivgame{
+        display: grid;                          
+        grid-template-columns: repeat(3, 90px);   
+        grid-template-rows: repeat(3, 90px);   
+        grid-auto-rows: 50px;                     
+          row-gap: 2px;    
+        width: 270px;
+        height: 270px;
+
+    }
+    .gamediv .maindivgame button{
+        height: 90px;
+        width: 90px;
+        margin: 1px;
+        border-radius: 5px;
+        
+    }
