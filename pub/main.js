@@ -159,13 +159,14 @@ socket.on('iturncom',data =>{
 
 })
 
-function checkreset(in){
+function checkreset(isin){
+        const resbtn=document.getElementById('resbtn');
 if(turn>9){
-const resbtn=document.getElementById('resbtn');
+
 resbtn.style.display="block";
 }
-if(in){
-        const resbtn=document.getElementById('resbtn');
+if(isin){
+       
 resbtn.style.display="block";
 }
 }
