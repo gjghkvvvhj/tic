@@ -98,6 +98,7 @@ font-size: 50px;
     .gamediv .maindivgame button{
         height: 90px;
         width: 90px;
+      font-size: large;
         margin: 1px;
         border-radius: 5px;
         
