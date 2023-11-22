@@ -201,6 +201,8 @@ c9=document.getElementById('btn9');
          c9.innerText="";
          c1.innerText="";
         turn=1;
+         const resbtn2=document.getElementById('resbtn');
+        resbtn2.style.display="none";
         
 
 }
