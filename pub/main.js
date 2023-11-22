@@ -265,5 +265,5 @@ alert('X win the match');
     alert('O win the match');
 }
 turn++;
-
+   checkreset();
 }
